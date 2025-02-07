@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="mainBox">
+      <div class="rows">
+        <div class="columns" id="0" onclick="handleCkick(this)"></div>
+        <div class="columns" id="1" onclick="handleCkick(this)"></div>
+        <div class="columns" id="2" onclick="handleCkick(this)"></div>
+      </div>
+      <div class="rows">
+        <div class="columns" id="3" onclick="handleCkick(this)"></div>
+        <div class="columns" id="4" onclick="handleCkick(this)"></div>
+        <div class="columns" id="5" onclick="handleCkick(this)"></div>
+      </div>
+      <div class="rows">
+        <div class="columns" id="6" onclick="handleCkick(this)"></div>
+        <div class="columns" id="7" onclick="handleCkick(this)"></div>
+        <div class="columns" id="8" onclick="handleCkick(this)"></div>
+      </div>
+    </div>
+
+    <div class="btnMain">
+      <a href="index.html"> 
+        <button class="button">
+          New Game
+        </button>
+      </a>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  </body>
+</html>
